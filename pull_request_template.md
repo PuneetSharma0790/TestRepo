@@ -1,9 +1,9 @@
-8 Pull Request Tenplate
-bb Description
+# Pull Request Tenplate
+## Description
 Include a description of what has been changed and include relevont motivation and context.
 If needed, ensure to list all dependencies that are required for this change.
 Fixes • (issue)
-B8 Type of change
+## Type of change
 Please delete options that are not relevont.
 •  [] Bug (non-breaking change which fixes an issue)
 •  [] Hew feature (non-breaking change which adds functionality)
