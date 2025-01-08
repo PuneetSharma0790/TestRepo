@@ -13,10 +13,11 @@ jobs:
                 echo "This is running on $RUNNER_OS"
                 echo "LINUX ENV Variables"
                 env
-    ubuntu-echo:
+    Windows-echo:
         runs-on: windows-latest
         steps:
             - name: show OS
+              shell: bash
               run: |
                 echo "This is running on $RUNNER_OS"
                 echo "Windows ENV Variables"
