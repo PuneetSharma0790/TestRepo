@@ -11,4 +11,5 @@ jobs:
             - name: show OS
               run: |
                 echo "This is running on $RUNNER_OS"
-                echo "$env"
+                echo "LINUX ENV Variables"
+                env
