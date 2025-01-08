@@ -1,2 +1,0 @@
-fixed first bug of this projct.
----Minor fix for bug1.
