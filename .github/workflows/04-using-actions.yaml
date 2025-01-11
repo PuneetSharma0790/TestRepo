@@ -9,5 +9,10 @@ jobs:
     steps:
       - name: checkoutCode
         uses: actions/checkout@v4
-      - name: PrintingFolder
-        run: ls
+      - name: setupNode
+        uses: action/setup-node@v3
+        with:
+          node-version: '20.x'
+      -name: install dependencies
+       run: npm ci
+       working-directory: 04-using-actions/react-app
