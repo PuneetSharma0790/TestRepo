@@ -1,0 +1,13 @@
+name: 04-using-actions
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ububtu-latest
+    Steps:
+      - name: checkoutCode
+        uses: actions/checkout@v4
+        name: PrintingFolder
+        run: ls
