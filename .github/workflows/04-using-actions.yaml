@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    Steps:
+    steps:
       - name: checkoutCode
         uses: actions/checkout@v4
       - name: PrintingFolder
