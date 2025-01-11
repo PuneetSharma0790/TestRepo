@@ -9,5 +9,5 @@ jobs:
     Steps:
       - name: checkoutCode
         uses: actions/checkout@v4
-        name: PrintingFolder
+      - name: PrintingFolder
         run: ls
