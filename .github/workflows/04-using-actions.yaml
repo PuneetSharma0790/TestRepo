@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
     Steps:
       - name: checkoutCode
         uses: actions/checkout@v4
